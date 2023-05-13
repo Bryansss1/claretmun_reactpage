@@ -1,0 +1,44 @@
+.header{
+    position: relative;
+    top: 3rem;
+    background-size:100% 100%;
+    background-image: url("/assets/bg_mobile/bg-1.png");
+}
+
+.contenedor{
+    background-image: url("/assets/bg_mobile/bg-1.png");
+}
+
+.fontS{
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.fontF{
+      /* standard gradient background */
+      background: linear-gradient(90deg, rgba(251,202,0,1) 27%, rgba(247,226,96,1) 35%, rgba(198,168,29,1) 68%);
+  /* clip informático */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-size: 1.4rem;
+    margin-top: .9rem;
+    font-style: italic;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.images_header{
+margin: auto;
+width: 95%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 1.5rem;
+}
+.images_header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
