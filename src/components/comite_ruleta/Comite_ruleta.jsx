@@ -36,7 +36,7 @@ const Comite_ruleta =() => {
                         <div>
                         <p>{mienbro.name}</p>
                         <p>{mienbro.cargo}</p>
-                        <FaInstagram style={{fontSize:"1.5rem",cursor:"pointer"}}/>
+                       <a target='_blank' href="https://www.instagram.com/danaalaysamy_va/"><FaInstagram style={{fontSize:"1.5rem",cursor:"pointer"}}/></a> 
                         </div>
                     </div>
                 )
