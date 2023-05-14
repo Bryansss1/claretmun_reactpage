@@ -26,7 +26,9 @@
     font-style: italic;
     font-family: 'Libre Baskerville', serif;
 }
-
+.title_claret{
+    max-width: 336px;
+}
 .images_header{
 margin: auto;
 width: 95%;
@@ -36,9 +38,40 @@ justify-content: center;
 flex-direction: column;
 gap: 1.5rem;
 }
-.images_header div{
+.date_and_phrase{
     display: flex;
+    gap: .5rem;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 1.5rem;
+   }
+@media screen and (min-width:700px) {
+    .header{
+        background-image: url("/assets/bg_desktop/background_desktop_1.png");
+    }
+    .contenedor{
+        background-image: url("/assets/bg_desktop/background_desktop_1.png");
+        height: 100vh;
+    }
+    .images_header{
+        padding-top: 2rem;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .title_claret{
+        max-width: 400px;
+    }
+    .shield_claret{
+        max-width: 230px;
+    }
+   .date_and_phrase{
+    display: flex;
+    gap: .8rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 3rem;
+   }
 }

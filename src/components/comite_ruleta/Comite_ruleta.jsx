@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect, useState} from 'react';
 import Carousel, { consts} from 'react-elastic-carousel';
 import styles from "./comite.module.css"
 import danaImage from "/assets/comite_img/danaim.jpg"
@@ -13,22 +13,31 @@ import {FaInstagram} from "react-icons/fa";
 
 
 const comite=[
-    {name:"Dana Al Aysamy",cargo:"Secretaria general",image:danaImage},
-    {name:"Samantha Rangel",cargo:"Faculty Advisor",image:samImage},
-    {name:"Camila Pirela",cargo:"Secretaria de Logistica",image:camilaImage},
-    {name:"Andres Arcaya",cargo:"Secretario Academico",image:andresImage},
-    {name:"Claudia Piña",cargo:"Secretaria de protocolo",image:claudiaImage},
-    {name:"Nelvin Ramos",cargo:"Secretaria de Finanzas",image:nelvinImage},
-    {name:"Ronnybeth Paris",cargo:"Secretaria de Comunicaciones",image:ronnyImage},
-    {name:"Jesica Perez",cargo:"Coordinadora Docente",image:profesoraImage},
+    {name:"Dana Al Aysamy",cargo:"Secretaria general",image:danaImage,instagram:""},
+    {name:"Samantha Rangel",cargo:"Faculty Advisor",image:samImage,instagram:""},
+    {name:"Camila Pirela",cargo:"Secretaria de Logistica",image:camilaImage,instagram:""},
+    {name:"Andres Arcaya",cargo:"Secretario Academico",image:andresImage,instagram:""},
+    {name:"Claudia Piña",cargo:"Secretaria de protocolo",image:claudiaImage,instagram:""},
+    {name:"Nelvin Ramos",cargo:"Secretaria de Finanzas",image:nelvinImage,instagram:""},
+    {name:"Ronnybeth Paris",cargo:"Secretaria de Comunicaciones",image:ronnyImage,instagram:""},
+    {name:"Jesica Perez",cargo:"Coordinadora Docente",image:profesoraImage,instagram:""},
 ]
 
 
 const Comite_ruleta =() => {
-    
+const[numberPeople,setNumberpeople]=useState(1)
+const desktop=window.matchMedia("(max-width:11780px)").matches
+const mobile=window.matchMedia("(max-width:600px)").matches
+const table=window.matchMedia("(max-width:850px)").matches
+useEffect(()=>{
+if(desktop)setNumberpeople(3)
+if(table)setNumberpeople(2)
+if(mobile)setNumberpeople(1)
+},[])
     return (
         <section className={styles.contenedor}>
-           <Carousel className={styles.carousel} itemsToShow={1}>
+            <h2 className={styles.title_comite}>Comité Organizador</h2>
+           <Carousel className={styles.carousel} itemsToShow={numberPeople}>
             {comite.map(mienbro=>{
                 return(
                     <div className={styles.card} key={mienbro.name}>
