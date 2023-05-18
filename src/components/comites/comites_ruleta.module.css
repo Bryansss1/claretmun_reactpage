@@ -1,0 +1,110 @@
+*{
+    font-family: 'Libre Baskerville', serif;
+}
+.carousel{
+    margin: auto;
+    
+    padding-bottom: 2rem;
+ 
+}
+
+.card{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-content: center;
+align-items: center;
+justify-content: center;
+border-radius:1.5%;
+background: #252851;
+padding:1.5rem 2rem;
+}
+.card_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card h4{
+    background: linear-gradient(90deg, rgba(251,202,0,1) 27%, rgba(247,226,96,1) 35%, rgba(198,168,29,1) 68%);
+    /* clip informático */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.card_img{
+    padding-bottom: 1rem;
+    width: 180px;
+    height: 180Px;
+}
+
+.card p{
+    color: white;
+    padding-bottom: .5rem;
+}
+.card p:nth-child(3){
+    text-align: justify;
+    font-weight: 100;
+    font-size: .9rem;
+}
+.card_subject{
+    font-size: .9rem;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(251,202,0,1) 27%, rgba(247,226,96,1) 35%, rgba(198,168,29,1) 68%);
+    /* clip informático */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     margin-bottom: 1rem;
+}
+
+.card ul{
+    font-size: 0.75rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    align-items: start;
+    gap: .8rem;
+}
+
+@media screen and (min-width:700px) {
+    .carousel_principal{
+        margin: auto;
+        width: 100%;
+        max-width: 65rem;
+    }
+    .card{
+        background-color: transparent;
+        max-width: 55rem;
+    }
+    .card_subject{
+        font-size: 1rem;
+    }
+    .card h4{
+        font-size: 2rem;
+    }
+    .card_info{
+        gap: 1.2rem;
+        flex-direction: row;
+    }
+    .card_img{
+      width: 200px;
+      height: 200px;
+    }
+    .card_info p{
+        font-size: .9rem;
+    }
+    .card ul{
+        position: relative;
+        padding-top: 1rem;
+        gap: 1rem;
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width:802px) {
+
+    
+}

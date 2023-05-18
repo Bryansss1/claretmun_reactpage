@@ -13,18 +13,18 @@ import {FaInstagram} from "react-icons/fa";
 
 
 const comite=[
-    {name:"Dana Al Aysamy",cargo:"Secretaria general",image:danaImage,instagram:""},
-    {name:"Samantha Rangel",cargo:"Faculty Advisor",image:samImage,instagram:""},
-    {name:"Camila Pirela",cargo:"Secretaria de Logistica",image:camilaImage,instagram:""},
+    {name:"Dana Al Aysamy",cargo:"Secretaria general",image:danaImage,instagram:"https://instagram.com/danaalaysamy_va?igshid=YmMyMTA2M2Y="},
+    {name:"Samantha Rangel",cargo:"Faculty Advisor",image:samImage,instagram:"https://instagram.com/saamantharaangeel?igshid=YmMyMTA2M2Y="},
+    {name:"Camila Pirela",cargo:"Secretaria de Logistica",image:camilaImage,instagram:"https://instagram.com/camilapirela1406?igshid=YmMyMTA2M2Y="},
     {name:"Andres Arcaya",cargo:"Secretario Academico",image:andresImage,instagram:""},
-    {name:"Claudia Piña",cargo:"Secretaria de protocolo",image:claudiaImage,instagram:""},
+    {name:"Claudia Piña",cargo:"Secretaria de protocolo",image:claudiaImage,instagram:"https://instagram.com/claudiapinaro?igshid=YmMyMTA2M2Y="},
     {name:"Nelvin Ramos",cargo:"Secretaria de Finanzas",image:nelvinImage,instagram:""},
-    {name:"Ronnybeth Paris",cargo:"Secretaria de Comunicaciones",image:ronnyImage,instagram:""},
-    {name:"Jesica Perez",cargo:"Coordinadora Docente",image:profesoraImage,instagram:""},
+    {name:"Ronnybeth Paris",cargo:"Secretaria de Comunicaciones",image:ronnyImage,instagram:"https://instagram.com/ronnybethpariss?igshid=YmMyMTA2M2Y="},
+    {name:"Jesica Perez",cargo:"Coordinadora Docente",image:profesoraImage,instagram:"https://instagram.com/jesicadelc_perez?igshid=YmMyMTA2M2Y="},
 ]
 
 
-const Comite_ruleta =() => {
+const Comite_organizador_ruleta =() => {
 const[numberPeople,setNumberpeople]=useState(1)
 const desktop=window.matchMedia("(max-width:11780px)").matches
 const mobile=window.matchMedia("(max-width:600px)").matches
@@ -37,6 +37,7 @@ if(mobile)setNumberpeople(1)
     return (
         <section className={styles.contenedor}>
             <h2 className={styles.title_comite}>Comité Organizador</h2>
+            <div className={styles.carousel_principal}>
            <Carousel className={styles.carousel} itemsToShow={numberPeople}>
             {comite.map(mienbro=>{
                 return(
@@ -45,17 +46,18 @@ if(mobile)setNumberpeople(1)
                         <div>
                         <p>{mienbro.name}</p>
                         <p>{mienbro.cargo}</p>
-                       <a target='_blank' href="https://www.instagram.com/danaalaysamy_va/"><FaInstagram style={{fontSize:"1.5rem",cursor:"pointer"}}/></a> 
+                       <a target='_blank' href={mienbro.instagram}><FaInstagram style={{fontSize:"1.5rem",cursor:"pointer"}}/></a> 
                         </div>
                     </div>
                 )
             })}
          </Carousel>
+         </div>
         </section>
     );
 };
 
-export default Comite_ruleta;
+export default Comite_organizador_ruleta;
 
 /*
 

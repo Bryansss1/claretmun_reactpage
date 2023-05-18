@@ -1,0 +1,25 @@
+*{
+    font-family: 'Libre Baskerville', serif;
+}
+
+.contenedor{
+    background-size:100% 100%;
+    background-color: rgb(62, 69, 99);
+    background-image: url("/assets/bg_mobile/bg-1.png");
+}
+.contenedor h3{
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    font-size: 2.5rem;
+    background: linear-gradient(90deg, rgba(251,202,0,1) 27%, rgba(247,226,96,1) 35%, rgba(198,168,29,1) 68%);
+    /* clip informático */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (min-width:700px) {
+    .contenedor h3{
+        padding-top: 5rem;
+    }
+}

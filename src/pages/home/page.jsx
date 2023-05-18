@@ -3,14 +3,14 @@ import styles from "./home.module.css"
 import title_claret from "/assets/icons/claret_1.svg"
 import Menu_bar from "../../components/navbar/Menu_bar"
 import shield_claret from "/assets/icons/escudo.png"
-import Comite_ruleta from "../../components/comite_ruleta/Comite_ruleta"
+import Comite_organizador_ruleta from "../../components/comite_organizador/Comite_organizador_ruleta"
 
 export default function Home() {
   return (
     <main className={styles.contenedor}>
       
       <section  className={styles.header}>
-      <Menu_bar/>
+      
 
       <article className={styles.images_header}>
         <img className={styles.title_claret} src={title_claret} alt="ss" />
@@ -25,7 +25,7 @@ export default function Home() {
         </div>
 
       </section>
-      <Comite_ruleta/>
+      <Comite_organizador_ruleta/>
     </main>
   )
 }

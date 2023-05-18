@@ -14,7 +14,7 @@
     background-color: #dba205d8 ;
     display:flex ;
     flex-direction: column;
-    gap: .5rem;
+    gap: 1rem;
     padding: 1rem;
     transition: all .2s;
 }
@@ -47,23 +47,19 @@ color:#f6f7f6;
     background-color: rgba(15, 2, 2, 0.123);
 }
 .quitbotton:hover{
-    color:#f9fffc;
+color:#f9fffc;
 cursor: pointer;
 transform: scale(1.2);
 }
 .menu_icon{
-    bottom: 1rem;
+    top:1.5rem;
     position: relative;
     left: 85%;
 }
 
 @media screen and (min-width:700px) {
-    .contenedor{
-        background-image: url("/assets/bg_desktop/background_desktop_1.png");
-        padding-bottom: .5rem;
-    }
     .seccion{
-      background-color: #dba205d8 ;
+      background-color: #c9aa54d8 ;
       align-items:center;
       justify-content: space-around;
       position: none;

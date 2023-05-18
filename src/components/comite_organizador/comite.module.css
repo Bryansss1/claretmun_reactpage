@@ -1,28 +1,26 @@
 
 .contenedor{
+    bottom: 3.2rem;
     z-index: -1;
     background-image: url("/assets/bg_mobile/bg-2.png");
     background-size:100% 100%;
-    bottom: 3.2rem;
     height: 100vh;
     }
     .title_comite{
         font-weight: 400;
         letter-spacing: -0.019em;
         line-height: 40px;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         background: linear-gradient(144.5deg, #9E7E34 -293.94%, #826315 -153.93%, #F7D260 21.91%, #8F701D 165.18%, #C2AB57 331.24%), linear-gradient(179.61deg, #9E7E34 -303.84%, #826315 -49.38%, #F7D260 164.36%, #8F701D 444.26%, #C2AB57 668.19%), linear-gradient(90deg, rgba(237, 194, 102, 0.2) -2.34%, rgba(255, 255, 207, 0.2) 27.98%, rgba(255, 222, 122, 0.2) 53.36%, rgba(206, 163, 70, 0.2) 80.86%, rgba(107, 57, 0, 0.2) 102.02%, rgba(214, 171, 79, 0.2) 125.28%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
         font-family: 'Libre Baskerville';
         text-align: center;
-        padding-top: 7.3rem;
-        padding-bottom: 3rem;  
+        padding-top: 6rem;
+        padding-bottom: 2rem; 
     }
-    .carousel{
-        padding-bottom: 5rem;   
-    }
+    
     .card{
     display: flex;
     align-items: center;
@@ -30,15 +28,17 @@
     flex-direction: column;
     }
     .card_image{
-        max-height: 200px;
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        height: 250px;
         width: 230px;
     }
     .card div{
+        border-bottom-left-radius: 5%;
+        border-bottom-right-radius: 5%;
         color:#ece2e2;
         font-weight: 400;
         font-family: 'Montserrat',sans-serif;
-        border-bottom-right-radius: 3%;
-        border-bottom-left-radius: 3%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -54,8 +54,8 @@
 .contenedor{
     background-image: url("/assets/bg_desktop/background_desktop_2.png");
 }
-.carousel{
+.carousel_principal{
+    width: 80%;
     margin: auto;
-    width: 60%;
 }
 }

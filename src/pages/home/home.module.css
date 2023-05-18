@@ -48,14 +48,15 @@ gap: 1.5rem;
    }
 @media screen and (min-width:700px) {
     .header{
+       
         background-image: url("/assets/bg_desktop/background_desktop_1.png");
     }
     .contenedor{
         background-image: url("/assets/bg_desktop/background_desktop_1.png");
-        height: 100vh;
+        
     }
     .images_header{
-        gap: 2rem;
+        gap: 3rem;
         padding-top: 2rem;
         align-items: center;
         justify-content: center;
@@ -73,6 +74,6 @@ gap: 1.5rem;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-bottom: 3rem;
+    
    }
 }
