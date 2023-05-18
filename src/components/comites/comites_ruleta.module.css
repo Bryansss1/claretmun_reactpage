@@ -4,7 +4,7 @@
 .carousel{
     margin: auto;
     
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
  
 }
 
@@ -56,7 +56,7 @@ padding:1.5rem 2rem;
     /* clip informático */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-     margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 .card ul{
@@ -104,7 +104,3 @@ padding:1.5rem 2rem;
     }
 }
 
-@media screen and (min-width:802px) {
-
-    
-}
