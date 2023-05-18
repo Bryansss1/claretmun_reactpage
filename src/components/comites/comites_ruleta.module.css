@@ -73,11 +73,11 @@ padding:1.5rem 2rem;
     .carousel_principal{
         margin: auto;
         width: 100%;
-        max-width: 65rem;
+        max-width: 80rem;
     }
     .card{
         background-color: transparent;
-        max-width: 55rem;
+        max-width: 60rem;
     }
     .card_subject{
         font-size: 1rem;
