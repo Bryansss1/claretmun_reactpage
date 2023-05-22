@@ -48,12 +48,10 @@ gap: 1.5rem;
    }
 @media screen and (min-width:700px) {
     .header{
-       
         background-image: url("/assets/bg_desktop/background_desktop_1.png");
     }
     .contenedor{
         background-image: url("/assets/bg_desktop/background_desktop_1.png");
-        
     }
     .images_header{
         gap: 3rem;

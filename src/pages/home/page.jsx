@@ -13,10 +13,10 @@ export default function Home() {
       
 
       <article className={styles.images_header}>
-        <img className={styles.title_claret} src={title_claret} alt="ss" />
+        <img className={styles.title_claret} src={title_claret} alt="claretmun logo" />
 
         
-        <img className={styles.shield_claret} src={shield_claret} alt="ss" /> 
+        <img className={styles.shield_claret} src={shield_claret} alt="claretmun escudo" /> 
       </article>
 
         <div className={styles.date_and_phrase}>

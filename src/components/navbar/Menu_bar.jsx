@@ -37,7 +37,7 @@ window.addEventListener("scroll",changeColor)
                      <li><Link className={styles.b} to={"/"}>Home</Link></li>
                      <li><Link to={"/protocolo"}>Protocolo y prensa</Link></li>
                      <li><Link to={"/reglamento"}>Reglamento</Link></li>
-                     <li><Link to={"/comites"}>Comites</Link></li>
+                     <li><Link to={"/comites"}>Comités</Link></li>
                      <li><Link to={"/patrocinadores"}>Patrocinadores</Link></li>
                  </ul>:
                  <img className={styles.menu_icon} onClick={()=>setBotton(!showBotton)} src={menu_icon} alt=''/>
