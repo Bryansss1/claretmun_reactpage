@@ -68,17 +68,16 @@ padding:1.5rem 2rem;
     margin-top: 1rem;
     align-items: start;
     gap: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .card ul li{
 font-family: 'Montserrat',sans-serif;
 text-align: center;
 font-weight: 900;
 }
-.card_info_participant{
-display: flex;
-justify-content: center;
-align-items: center;
-}
+
 .card_phrase{
     background: linear-gradient(90deg, rgba(251,202,0,1) 27%, rgba(247,226,96,1) 35%, rgba(198,168,29,1) 68%);
     /* clip informático */
