@@ -16,9 +16,9 @@ const comite=[
     {name:"Dana Al Aysamy",cargo:"Secretaria general",image:danaImage,instagram:"https://instagram.com/danaalaysamy_va?igshid=YmMyMTA2M2Y="},
     {name:"Samantha Rangel",cargo:"Faculty Advisor",image:samImage,instagram:"https://instagram.com/saamantharaangeel?igshid=YmMyMTA2M2Y="},
     {name:"Camila Pirela",cargo:"Secretaria de Logistica",image:camilaImage,instagram:"https://instagram.com/camilapirela1406?igshid=YmMyMTA2M2Y="},
-    {name:"Andres Arcaya",cargo:"Secretario Academico",image:andresImage,instagram:""},
+    {name:"Andres Arcaya",cargo:"Secretario Academico",image:andresImage,instagram:"https://instagram.com/claretmun_?igshid=NTc4MTIwNjQ2YQ=="},
     {name:"Claudia Piña",cargo:"Secretaria de protocolo",image:claudiaImage,instagram:"https://instagram.com/claudiapinaro?igshid=YmMyMTA2M2Y="},
-    {name:"Nelvin Ramos",cargo:"Secretaria de Finanzas",image:nelvinImage,instagram:""},
+    {name:"Nelvin Ramos",cargo:"Secretaria de Finanzas",image:nelvinImage,instagram:"https://instagram.com/claretmun_?igshid=NTc4MTIwNjQ2YQ=="},
     {name:"Ronnybeth Paris",cargo:"Secretaria de Comunicaciones",image:ronnyImage,instagram:"https://instagram.com/ronnybethpariss?igshid=YmMyMTA2M2Y="},
     {name:"Jesica Perez",cargo:"Coordinadora Docente",image:profesoraImage,instagram:"https://instagram.com/jesicadelc_perez?igshid=YmMyMTA2M2Y="},
 ]

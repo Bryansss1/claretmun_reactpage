@@ -40,11 +40,11 @@ padding:1.5rem 2rem;
 }
 
 .card p{
-    font-family: 'Montserrat',sans-serif;
     color: white;
     padding-bottom: .5rem;
 }
 .description_p{
+    font-family: 'Montserrat',sans-serif;
     text-align: justify;
     font-weight: 100;
     font-size: .85rem;
