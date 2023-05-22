@@ -46,7 +46,7 @@ if(mobile)setNumberpeople(1)
                         <div>
                         <p>{mienbro.name}</p>
                         <p>{mienbro.cargo}</p>
-                       <a target='_blank' href={mienbro.instagram}><FaInstagram style={{fontSize:"1.5rem",cursor:"pointer"}}/></a> 
+                       <a style={{marginTop:".5rem"}} target='_blank' href={mienbro.instagram}><FaInstagram className={styles.iconIg}/></a> 
                         </div>
                     </div>
                 )

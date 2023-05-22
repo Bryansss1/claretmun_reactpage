@@ -3,9 +3,8 @@
 }
 .carousel{
     margin: auto;
-    
+    margin-top: 2rem;
     padding-bottom: 3rem;
- 
 }
 
 .card{
@@ -41,16 +40,18 @@ padding:1.5rem 2rem;
 }
 
 .card p{
+    font-family: 'Montserrat',sans-serif;
     color: white;
     padding-bottom: .5rem;
 }
-.card p:nth-child(3){
+.description_p{
     text-align: justify;
     font-weight: 100;
-    font-size: .9rem;
+    font-size: .85rem;
+    margin-bottom: .5rem;
 }
 .card_subject{
-    font-size: .9rem;
+    font-size: 1rem;
     text-align: center;
     background: linear-gradient(90deg, rgba(251,202,0,1) 27%, rgba(247,226,96,1) 35%, rgba(198,168,29,1) 68%);
     /* clip informático */
@@ -68,8 +69,17 @@ padding:1.5rem 2rem;
     align-items: start;
     gap: .8rem;
 }
+.card ul li{
+    font-family: 'Montserrat',sans-serif;
 
+}
 @media screen and (min-width:700px) {
+    .description_p{
+        margin-bottom: 0rem;
+    }
+    .carousel{
+       margin-top: 0rem;
+    }
     .carousel_principal{
         margin: auto;
         width: 100%;
@@ -80,7 +90,7 @@ padding:1.5rem 2rem;
         max-width: 60rem;
     }
     .card_subject{
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
     .card h4{
         font-size: 2rem;
@@ -90,6 +100,9 @@ padding:1.5rem 2rem;
         flex-direction: row;
     }
     .card_img{
+      bottom: 3.5rem;
+      margin-right: 1rem;
+      position: relative;
       width: 200px;
       height: 200px;
     }

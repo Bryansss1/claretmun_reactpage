@@ -19,6 +19,9 @@
 }
 
 @media screen and (min-width:700px) {
+    .contenedor{
+        background-image: url("/assets/bg_desktop/background_desktop_1.png");
+    }
     .contenedor h3{
         padding-top: 5rem;
     }

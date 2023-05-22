@@ -30,7 +30,7 @@
     .card_image{
         border-top-left-radius: 5%;
         border-top-right-radius: 5%;
-        height: 250px;
+        height: 280px;
         width: 230px;
     }
     .card div{
@@ -45,11 +45,28 @@
         justify-content: center;
         padding: 1rem;
         text-align: center;
-        background-color: #8e94c2;
+        background-color: #494e75;
+        /*
+        background-color: #0a722977;
+        */
         width: 100%;
         max-width: 230px;
     }
+    .card div p{
+background: linear-gradient(144.5deg, #9E7E34 -293.94%, #826315 -153.93%, #F7D260 21.91%, #8F701D 165.18%, #C2AB57 331.24%), linear-gradient(179.61deg, #9E7E34 -303.84%, #826315 -49.38%, #F7D260 164.36%, #8F701D 444.26%, #C2AB57 668.19%), linear-gradient(90deg, rgba(237, 194, 102, 0.2) -2.34%, rgba(255, 255, 207, 0.2) 27.98%, rgba(255, 222, 122, 0.2) 53.36%, rgba(206, 163, 70, 0.2) 80.86%, rgba(107, 57, 0, 0.2) 102.02%, rgba(214, 171, 79, 0.2) 125.28%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    }
     
+.iconIg{
+transition: all .2s;
+font-size: 1.8rem;
+cursor: pointer;
+color: #ffffff;
+}
+.iconIg:hover{
+transform: scale(1.2);
+}
 @media screen and (min-width:700px) {
 .contenedor{
     background-image: url("/assets/bg_desktop/background_desktop_2.png");
