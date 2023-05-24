@@ -2,11 +2,11 @@
     position: relative;
     top: 3rem;
     background-size:100% 100%;
-    background-image: url("/assets/bg_mobile/bg-1.png");
+    background-image: url("/assets/bg_mobile/bg-1.Webp");
 }
 
 .contenedor{
-    background-image: url("/assets/bg_mobile/bg-1.png");
+    background-image: url("/assets/bg_mobile/bg-1.Webp");
 }
 
 .fontS{
@@ -48,10 +48,10 @@ gap: 1.5rem;
    }
 @media screen and (min-width:700px) {
     .header{
-        background-image: url("/assets/bg_desktop/background_desktop_1.png");
+        background-image: url("/assets/bg_desktop/background_desktop_1.Webp");
     }
     .contenedor{
-        background-image: url("/assets/bg_desktop/background_desktop_1.png");
+        background-image: url("/assets/bg_desktop/background_desktop_1.Webp");
     }
     .images_header{
         gap: 3rem;

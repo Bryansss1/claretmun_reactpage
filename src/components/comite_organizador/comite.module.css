@@ -2,7 +2,7 @@
 .contenedor{
     bottom: 3.2rem;
     z-index: -1;
-    background-image: url("/assets/bg_mobile/bg-2.png");
+    background-image: url("/assets/bg_mobile/bg-2.Webp");
     background-size:100% 100%;
     height: 100vh;
     }
@@ -69,7 +69,7 @@ transform: scale(1.2);
 }
 @media screen and (min-width:700px) {
 .contenedor{
-    background-image: url("/assets/bg_desktop/background_desktop_2.png");
+    background-image: url("/assets/bg_desktop/background_desktop_2.Webp");
 }
 .carousel_principal{
     width: 80%;

@@ -5,14 +5,14 @@ import {FaInstagram} from "react-icons/fa";
 
 
 const comite=[
-    {name:"Dana Al Aysamy",cargo:"Secretaria General",image:"/assets/comite_img/danaim.WebP",instagram:"https://instagram.com/danaalaysamy_va?igshid=YmMyMTA2M2Y="},
-    {name:"Samantha Rangel",cargo:"Faculty Advisor",image:"/assets/comite_img/samim.WebP",instagram:"https://instagram.com/saamantharaangeel?igshid=YmMyMTA2M2Y="},
+    {name:"Dana Al Aysamy",cargo:"Secretaria General",image:"/assets/comite_img/danaim.Webp",instagram:"https://instagram.com/danaalaysamy_va?igshid=YmMyMTA2M2Y="},
+    {name:"Samantha Rangel",cargo:"Faculty Advisor",image:"/assets/comite_img/samim.Webp",instagram:"https://instagram.com/saamantharaangeel?igshid=YmMyMTA2M2Y="},
     {name:"Camila Pirela",cargo:"Secretaria de Logística",image:"/assets/comite_img/camilaim.Webp",instagram:"https://instagram.com/camilapirela1406?igshid=YmMyMTA2M2Y="},
-    {name:"Andrés Arcaya",cargo:"Secretario Académico",image:"/assets/comite_img/andresim.WebP",instagram:"https://instagram.com/claretmun_?igshid=NTc4MTIwNjQ2YQ=="},
-    {name:"Claudia Piña",cargo:"Secretaria de Protocolo",image:"/assets/comite_img/caludiaim.WebP",instagram:"https://instagram.com/claudiapinaro?igshid=YmMyMTA2M2Y="},
-    {name:"Nelvin Ramos",cargo:"Secretario de Finanzas",image:"/assets/comite_img/nelvinim.WebP",instagram:"https://instagram.com/claretmun_?igshid=NTc4MTIwNjQ2YQ=="},
-    {name:"Ronnybeth Paris",cargo:"Secretaria de Comunicaciones",image:"/assets/comite_img/ronnyim.WebP",instagram:"https://instagram.com/ronnybethpariss?igshid=YmMyMTA2M2Y="},
-    {name:"Jesica Pérez",cargo:"Coordinadora Docente",image:"/assets/comite_img/profeim.WebP",instagram:"https://instagram.com/jesicadelc_perez?igshid=YmMyMTA2M2Y="},
+    {name:"Andrés Arcaya",cargo:"Secretario Académico",image:"/assets/comite_img/andresim.Webp",instagram:"https://instagram.com/claretmun_?igshid=NTc4MTIwNjQ2YQ=="},
+    {name:"Claudia Piña",cargo:"Secretaria de Protocolo",image:"/assets/comite_img/caludiaim.Webp",instagram:"https://instagram.com/claudiapinaro?igshid=YmMyMTA2M2Y="},
+    {name:"Nelvin Ramos",cargo:"Secretario de Finanzas",image:"/assets/comite_img/nelvinim.Webp",instagram:"https://instagram.com/claretmun_?igshid=NTc4MTIwNjQ2YQ=="},
+    {name:"Ronnybeth Paris",cargo:"Secretaria de Comunicaciones",image:"/assets/comite_img/ronnyim.Webp",instagram:"https://instagram.com/ronnybethpariss?igshid=YmMyMTA2M2Y="},
+    {name:"Jesica Pérez",cargo:"Coordinadora Docente",image:"/assets/comite_img/profeim.Webp",instagram:"https://instagram.com/jesicadelc_perez?igshid=YmMyMTA2M2Y="},
 ]
 
 

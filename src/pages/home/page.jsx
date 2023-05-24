@@ -1,8 +1,6 @@
 import React from "react"
 import styles from "./home.module.css"
 import title_claret from "/assets/icons/claret_1.svg"
-import Menu_bar from "../../components/navbar/Menu_bar"
-import shield_claret from "/assets/icons/escudo.png"
 import Comite_organizador_ruleta from "../../components/comite_organizador/Comite_organizador_ruleta"
 
 export default function Home() {
@@ -16,7 +14,7 @@ export default function Home() {
         <img className={styles.title_claret} src={title_claret} alt="claretmun logo" />
 
         
-        <img className={styles.shield_claret} src={shield_claret} alt="claretmun escudo" /> 
+        <img className={styles.shield_claret} src="/assets/icons/escudo.Webp" alt="claretmun escudo" /> 
       </article>
 
         <div className={styles.date_and_phrase}>
