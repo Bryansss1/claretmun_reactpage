@@ -1,5 +1,5 @@
-import React,{useEffect, useState} from 'react';
-import Carousel, { consts} from 'react-elastic-carousel';
+import React from 'react';
+import Carousel from 'react-elastic-carousel';
 import styles from "./comites_ruleta.module.css"
 
 const comites_claret=[

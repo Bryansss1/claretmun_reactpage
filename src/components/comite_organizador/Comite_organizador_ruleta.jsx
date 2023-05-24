@@ -1,5 +1,5 @@
 import React,{useEffect, useState} from 'react';
-import Carousel, { consts} from 'react-elastic-carousel';
+import Carousel from 'react-elastic-carousel';
 import styles from "./comite.module.css"
 import {FaInstagram} from "react-icons/fa";
 
@@ -38,7 +38,7 @@ if(mobile)setNumberpeople(1)
                         <div>
                         <p>{mienbro.name}</p>
                         <p>{mienbro.cargo}</p>
-                       <a style={{marginTop:".5rem"}} target='_blank' href={mienbro.instagram}><FaInstagram className={styles.iconIg}/></a> 
+                       <a style={{marginTop:".5rem"}} target='_blank' href={mienbro.instagram} alt={mienbro.cargo}><FaInstagram className={styles.iconIg}/></a> 
                         </div>
                     </div>
                 )
