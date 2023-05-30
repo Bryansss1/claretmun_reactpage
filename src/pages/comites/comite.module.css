@@ -7,6 +7,7 @@
     background-color: rgb(62, 69, 99);
     background-image: url("/assets/bg_mobile/bg-1.Webp");
 }
+
 .contenedor h3{
     padding-top: 3rem;
     padding-bottom: 1.5rem;
@@ -23,6 +24,6 @@
         background-image: url("/assets/bg_desktop/background_desktop_1.Webp");
     }
     .contenedor h3{
-        padding-top: 5rem;
+        padding-top: 6.5rem;
     }
 }

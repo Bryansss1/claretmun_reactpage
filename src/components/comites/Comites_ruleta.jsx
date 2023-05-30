@@ -66,6 +66,7 @@ if(desktop){
                     <p className={styles.description_p}>{comites?.paragraph3}</p>
                     <p className={styles.description_p}>{comites?.paragraph4}</p>
                      <p className={styles.card_phrase} >{comites?.phrase}</p>
+                     <button><a target='_blank' href="https://www.twitch.tv/albionxzz">ssss</a></button>
                       <ul>
                         {comites.comite.map((participant,index)=>(
                             <li key={index}>{participant}</li>

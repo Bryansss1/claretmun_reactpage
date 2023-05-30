@@ -8,6 +8,7 @@
 }
 
 .card{
+height: 65rem;
 width: 100%;
 display: flex;
 flex-direction: column;
@@ -16,7 +17,7 @@ align-items: center;
 justify-content: center;
 border-radius:1.5%;
 background: #252851;
-padding:1.5rem 2rem;
+padding:0rem 2rem;
 }
 .card_info{
     display: flex;
@@ -79,6 +80,7 @@ font-weight: 900;
 }
 
 .card_phrase{
+    line-height: 1.3rem;
     background: linear-gradient(90deg, rgba(251,202,0,1) 27%, rgba(247,226,96,1) 35%, rgba(198,168,29,1) 68%);
     /* clip informático */
     -webkit-background-clip: text;
@@ -89,6 +91,7 @@ font-weight: 900;
 }
 @media screen and (min-width:700px) {
     .card_phrase{
+        line-height: 1.5rem;
         font-size: 1rem;
         margin-top: .7rem;
     }
@@ -104,6 +107,7 @@ font-weight: 900;
         max-width: 80rem;
     }
     .card{
+        height: 100%;
         background-color: transparent;
         max-width: 60rem;
     }
