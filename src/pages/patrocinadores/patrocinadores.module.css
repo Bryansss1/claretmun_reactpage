@@ -1,0 +1,98 @@
+
+.container{
+    height: auto;
+    background-size:100% 100%;
+    background-color: rgb(54, 61, 94);
+
+}
+
+.title_patrocinadores_page{
+text-align: center;
+padding-top: 4rem;
+}
+.title_patrocinadores_page h3{
+    background: linear-gradient(90deg, rgba(204,204,204,1) 0%, rgba(255,255,255,1) 26%, rgba(195,195,195,0.9892156691778273) 43%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    font-family: 'Libre Baskerville', serif;
+}
+.title_patrocinadores_page p{
+    background: linear-gradient(90deg, rgba(204,204,204,1) 0%, rgba(255,255,255,1) 26%, rgba(195,195,195,0.9892156691778273) 43%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #F4F4F4;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1.8187131881713867px;
+    text-align: center;
+}
+
+.grid_patrocinadores{
+    margin: auto;
+    max-width: 77rem;
+    padding-top:4rem;
+    padding-bottom: 4rem;
+}
+
+.card_patrocinador{
+    margin-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.card_patrocinador p{
+    background: linear-gradient(90deg, rgba(204,204,204,1) 0%, rgba(255,255,255,1) 26%, rgba(195,195,195,0.9892156691778273) 43%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 1.8187131881713867px;
+    color: #FFFFFF;
+    font-family: 'Montserrat',sans-serif;
+}
+.card_patrocinador img{
+    border-radius: 5%;
+    height: 11rem;
+    width: 15.875rem;
+}
+
+@media screen and (min-width:700px) {
+    .card_patrocinador p{
+       font-size:1.2rem;
+    }
+    .card_patrocinador{
+    }
+    .card_patrocinador img{
+        height: 8rem;
+        width: 13rem;
+    }
+    .container{
+        height: auto;
+        background-image: url("/assets/bg_desktop/background_desktop_1.Webp");
+    }
+    .grid_patrocinadores{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+    }
+    .title_patrocinadores_page{
+        padding-top: 6.5rem;
+    }
+    .title_patrocinadores_page p{
+        font-size: 1.3rem;
+    }
+    .title_patrocinadores_page h3{
+        font-size: 3.625rem;
+    }
+}
+@media screen and (min-width:1100px) {
+    .grid_patrocinadores{
+        grid-template-columns: repeat(3,2fr);
+    }
+}

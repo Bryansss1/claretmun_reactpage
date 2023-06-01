@@ -36,7 +36,6 @@ window.addEventListener("scroll",changeColor)
                  <FontAwesomeIcon onClick={()=>setBotton(!showBotton)} className={styles.quitbotton} icon={faXmark} />
                      <li><Link className={styles.b} to={"/"}>Home</Link></li>
                      <li><Link to={"/protocolo"}>Protocolo y prensa</Link></li>
-                     <li><Link to={"/reglamento"}>Reglamento</Link></li>
                      <li><Link to={"/comites"}>Comités</Link></li>
                      <li><Link to={"/patrocinadores"}>Patrocinadores</Link></li>
                  </ul>:
