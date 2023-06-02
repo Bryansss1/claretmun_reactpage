@@ -8,7 +8,6 @@
 }
 
 .card{
-height: 65rem;
 width: 100%;
 display: flex;
 flex-direction: column;
@@ -17,7 +16,7 @@ align-items: center;
 justify-content: center;
 border-radius:1.5%;
 background: #252851;
-padding:0rem 2rem;
+padding:2rem;
 }
 .card_info{
     display: flex;
@@ -89,7 +88,44 @@ font-weight: 900;
     text-align: center;
     margin-top: .5rem;
 }
+.botton_descarga{
+    background-color: transparent;
+    background-color:hsla(146, 90%, 23%, 0.795);;
+    padding: .5rem;
+    margin: auto;
+    margin-top: 3rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+    border: transparent;
+    
+    transition: all .2s;
+}
+.botton_descarga a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+}
 @media screen and (min-width:700px) {
+    .botton_descarga{
+        background-color: transparent;
+        background-color:hsla(146, 90%, 23%, 0.219);;
+        padding: .5rem;
+        margin: auto;
+        width: 12rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3%;
+        border: transparent;
+        
+        transition: all .2s;
+    }
+    .botton_descarga:hover{
+        background-color:hsl(146, 90%, 23%);;
+    }
     .card_phrase{
         line-height: 1.5rem;
         font-size: 1rem;

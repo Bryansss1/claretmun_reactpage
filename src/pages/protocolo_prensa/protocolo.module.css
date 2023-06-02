@@ -1,0 +1,175 @@
+
+.container{
+    height: auto;
+    background-size:100% 100%;
+    background-color: rgb(54, 61, 94);
+}
+
+.header_page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5.5rem;
+}
+.header_title h3{
+    background: linear-gradient(90deg, rgba(204,204,204,1) 0%, rgba(255,255,255,1) 26%, rgba(195,195,195,0.9892156691778273) 43%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-family: 'Libre Baskerville', serif;
+}
+.header_title p{
+    background: linear-gradient(90deg, rgba(204,204,204,1) 0%, rgba(255,255,255,1) 26%, rgba(195,195,195,0.9892156691778273) 43%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 40px;
+    letter-spacing: 1.8187131881713867px;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: 'Montserrat',sans-serif;
+}
+.header_title{
+    margin-top: 2rem;
+    text-align: center;
+}
+.carousel{
+    padding-top: 4rem;
+}
+h5{
+    background: linear-gradient(90deg, rgba(251,202,0,1) 27%, rgba(247,226,96,1) 35%, rgba(198,168,29,1) 68%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+    margin: 1rem 0rem;
+}
+
+
+
+.protocolo_seccion{
+
+}
+.protocolo_seccion_titles{
+text-align: center;
+}
+.protocolo_seccion_titles p{
+color: #F4F4F4;
+margin: auto;
+width: 90%;
+text-align: justify;
+font-family: 'Montserrat',sans-serif;
+font-size: 1rem;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: .5px;
+margin-bottom: 2rem;
+}
+
+
+
+.auxiliadores_seccion_titles{
+    text-align: center;
+}
+.auxiliadores_seccion_titles p{
+    color: #F4F4F4;
+    margin: auto;
+    width: 90%;
+    text-align: justify;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: .5px;
+    margin-bottom: 2rem;
+}
+
+
+.staff_seccion_titles{
+    text-align: center;
+}
+.staff_seccion_titles p{
+    color: #F4F4F4;
+    margin: auto;
+    width: 90%;
+    text-align: justify;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: .5px;
+    padding-bottom: 2rem;
+}
+
+@media screen and (min-width:700px) {
+    .header_page{
+        margin: auto;
+        justify-content: space-around;
+        padding-top: 6.5rem;
+        width: 90%;
+       flex-direction: row-reverse;
+    }
+    .header_title{
+        width: 50%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    .header_title h3{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width:850px) {
+    h5{
+        font-size: 2rem;
+    }
+    .protocolo_seccion{
+        width: 97%;
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .carousel{
+        width: 60%;
+    }
+    .protocolo_seccion_titles{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .auxiliadores_seccion{
+        margin-bottom: 5rem;
+        width: 97%;
+            margin-top: 4rem;
+            display: flex;
+            flex-direction: row;
+    }
+    .auxiliadores_seccion p{
+        font-size: 1rem;
+    }
+    .auxiliadores_seccion_titles{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    .staff_seccion{
+        width: 97%;
+        margin-top: 6rem;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .staff_seccion h5{
+        margin: 0rem;
+    }
+    .staff_seccion_titles{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+}

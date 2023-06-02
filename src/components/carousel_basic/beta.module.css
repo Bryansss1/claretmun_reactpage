@@ -1,0 +1,34 @@
+.mode{
+    margin: auto;
+    width: 100%;
+    max-width: 40rem;
+}
+.mode img{
+    border-radius: 5%;
+    width: 100%;
+    max-width: 32rem;
+}
+
+.mode button:nth-child(3){
+z-index: -1;
+position:absolute;
+}
+.mode button:nth-child(1){
+z-index: -1;
+position: absolute;
+}
+
+@media screen and (min-width:700px) {
+    .mode img{
+        height: 25rem;
+    }
+    .mode button:nth-child(3){
+    z-index: 1;
+    position:relative;
+     }
+    .mode button:nth-child(1){
+    z-index: 1;
+    position: relative;
+    } 
+}
+

@@ -45,7 +45,7 @@ gap: 1.5rem;
     align-items: center;
     flex-direction: column;
     padding-bottom: 1.5rem;
-   }
+}
 @media screen and (min-width:700px) {
     .header{
         background-image: url("/assets/bg_desktop/background_desktop_1.Webp");

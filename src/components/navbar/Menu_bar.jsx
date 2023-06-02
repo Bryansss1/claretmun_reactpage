@@ -5,6 +5,7 @@ import styles from "./navbar.module.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
+import { faArrowUpFromBracket } from '@fortawesome/free-solid-svg-icons';
 
 const Menu_bar = () => {
 
@@ -38,6 +39,7 @@ window.addEventListener("scroll",changeColor)
                      <li><Link to={"/protocolo"}>Protocolo y prensa</Link></li>
                      <li><Link to={"/comites"}>Comités</Link></li>
                      <li><Link to={"/patrocinadores"}>Patrocinadores</Link></li>
+                     <li><a href=""><FontAwesomeIcon icon={faArrowUpFromBracket}/> Reglamento</a></li>
                  </ul>:
                  <img className={styles.menu_icon} onClick={()=>setBotton(!showBotton)} src={menu_icon} alt=''/>
                  
@@ -47,9 +49,9 @@ window.addEventListener("scroll",changeColor)
                  <FontAwesomeIcon onClick={()=>setBotton(!showBotton)} className={styles.quitbotton} icon={faXmark} />
                      <li><Link className={styles.b} to={"/"}>Home</Link></li>
                      <li><Link to={"/protocolo"}>Protocolo y prensa</Link></li>
-                     <li><Link to={"/reglamento"}>Reglamento</Link></li>
                      <li><Link to={"/comites"}>Comites</Link></li>
                      <li><Link to={"/patrocinadores"}>Patrocinadores</Link></li>
+                     <li><a href=""><FontAwesomeIcon icon={faArrowUpFromBracket}/> Reglamento</a></li>
                  </ul>:
                  <img className={styles.menu_icon} onClick={()=>setBotton(!showBotton)} src={menu_icon} alt=''/>
                  
