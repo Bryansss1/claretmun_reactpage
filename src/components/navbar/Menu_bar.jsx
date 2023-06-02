@@ -27,7 +27,7 @@ setBotton(true)
 }
 },[])
 window.addEventListener("scroll",changeColor)
-
+//<li><a href=""><FontAwesomeIcon icon={faArrowUpFromBracket}/> Reglamento</a></li>
 
     return (
         <article className={styles.contenedor}>
@@ -39,7 +39,7 @@ window.addEventListener("scroll",changeColor)
                      <li><Link to={"/protocolo"}>Protocolo y prensa</Link></li>
                      <li><Link to={"/comites"}>Comités</Link></li>
                      <li><Link to={"/patrocinadores"}>Patrocinadores</Link></li>
-                     <li><a href=""><FontAwesomeIcon icon={faArrowUpFromBracket}/> Reglamento</a></li>
+                     
                  </ul>:
                  <img className={styles.menu_icon} onClick={()=>setBotton(!showBotton)} src={menu_icon} alt=''/>
                  
@@ -51,7 +51,7 @@ window.addEventListener("scroll",changeColor)
                      <li><Link to={"/protocolo"}>Protocolo y prensa</Link></li>
                      <li><Link to={"/comites"}>Comites</Link></li>
                      <li><Link to={"/patrocinadores"}>Patrocinadores</Link></li>
-                     <li><a href=""><FontAwesomeIcon icon={faArrowUpFromBracket}/> Reglamento</a></li>
+               
                  </ul>:
                  <img className={styles.menu_icon} onClick={()=>setBotton(!showBotton)} src={menu_icon} alt=''/>
                  
